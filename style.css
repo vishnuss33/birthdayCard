@@ -10,21 +10,21 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family: "Source Sans Pro";
+  font-family: "Caveat";
   font-size: 5em;
-  font-weight: 900;
+  font-weight: 700;
   -webkit-user-select: none;
   user-select: none;
 }
 h2 {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family: "Source Sans Pro";
+  font-family: "Caveat";
   font-size: 5em;
-  font-weight: 900;
+  font-weight: 700;
   -webkit-user-select: none;
   user-select: none;
 }
