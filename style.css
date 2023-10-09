@@ -4,9 +4,51 @@ body {
   cursor: crosshair;
 }
 canvas{display:block}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Caveat";
+    font-size: 5em;
+    font-weight: 700;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Caveat";
+    font-size: 5em;
+    font-weight: 700;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  p{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Caveat";
+    font-size: 2rem;
+    font-weight: 700;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+}
+
 h1 {
   position: absolute;
-  top: 20%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -18,7 +60,7 @@ h1 {
 }
 h2 {
   position: absolute;
-  top: 30%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -28,3 +70,17 @@ h2 {
   -webkit-user-select: none;
   user-select: none;
 }
+
+p{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Caveat";
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
